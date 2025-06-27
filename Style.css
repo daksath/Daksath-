@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.editors {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 30%;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+iframe {
+  width: 50%;
+  border: none;
+  height: 100%;
+  background: white;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  }
