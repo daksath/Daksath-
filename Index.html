@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Website Builder</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="editors">
+      <textarea id="html" placeholder="Write HTML here..."></textarea>
+      <textarea id="css" placeholder="Write CSS here..."></textarea>
+      <textarea id="js" placeholder="Write JavaScript here..."></textarea>
+      <button id="downloadBtn">Download as ZIP</button>
+    </div>
+    <iframe id="preview"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
